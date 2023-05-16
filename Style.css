@@ -1,0 +1,80 @@
+#photo{
+
+      height: 600px;
+      margin: 15px;
+      float: left;
+      width: 300px;
+      background-color: rgb(37, 20, 146) (82,72,78);
+
+      }
+
+      #myName, #jobTitle{
+
+          color: green;
+
+      }
+
+      #INTRO{
+          
+        float: left;
+        text-align: justify;
+        width: 1000;
+        margin: 5px;
+        margin-top: 17px;
+
+
+
+      }
+
+      section{
+        height: 400px;
+        width: 400px;
+        background-color: rgb(92, 236, 255);
+        color: rgb(0, 0, 0);
+        font-size: 50px;
+        animation-name: y;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-play-state: running;
+    }
+    
+    @keyframes x{
+    
+        from{background-color: rgb(92, 236, 255); color: brown}
+        to{ background-color: rgb(243, 243, 109);}
+    }
+
+
+    @keyframes y{
+      0%{background-color: chartreuse; color: rgb(255, 255, 255);}
+      25%{background-color: rgb(231, 146, 18);}
+       50%{background-color: rgb(196, 44, 95);}
+      75%{background-color: rgb(224, 26, 26); height: 200px; width: 200px;float: unset;}
+      100%{background: url(./bbbb.webp); height: 300px; width: 200px; border-radius: 100px;}
+
+    }
+
+    div{
+      width: 200px;
+      height: 200px;
+      margin: 200px;
+      font-size: 40PX;
+      background-color: rgb(241, 44, 44);
+      color: rgb(0, 0, 0);
+      transition:  width 1s;
+      -moz-transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+    }
+
+    div:hover{
+      width:500px;
+    }
+
+
+
+@media  screen and (width:600px) {
+  body{color:blueviolet;
+  font-size: 30pt;}
+  
+}
